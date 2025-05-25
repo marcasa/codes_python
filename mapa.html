@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_46204b09228f65fba4b5f6a632d6439a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_46204b09228f65fba4b5f6a632d6439a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_46204b09228f65fba4b5f6a632d6439a = L.map(
+                "map_46204b09228f65fba4b5f6a632d6439a",
+                {
+                    center: [-23.504739091623104, -46.47615680521386],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 50,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3db676b73d5cf064b035d1f8c20774aa = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3db676b73d5cf064b035d1f8c20774aa.addTo(map_46204b09228f65fba4b5f6a632d6439a);
+        
+    
+            var marker_b32b24db4994ba71dc5a46aeef65b92e = L.marker(
+                [-23.499396981785367, -46.47852459164998],
+                {
+}
+            ).addTo(map_46204b09228f65fba4b5f6a632d6439a);
+        
+    
+            var icon_557ca45463b12ab63fc849954d250e8d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c1dba29f585c1b81b3bf87fd71a7bf35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_acd9853db4829d743e8d87d42eb8e703 = $(`<div id="html_acd9853db4829d743e8d87d42eb8e703" style="width: 100.0%; height: 100.0%;"> E.E. Therezinha</div>`)[0];
+                popup_c1dba29f585c1b81b3bf87fd71a7bf35.setContent(html_acd9853db4829d743e8d87d42eb8e703);
+            
+        
+
+        marker_b32b24db4994ba71dc5a46aeef65b92e.bindPopup(popup_c1dba29f585c1b81b3bf87fd71a7bf35)
+        ;
+
+        
+    
+    
+                marker_b32b24db4994ba71dc5a46aeef65b92e.setIcon(icon_557ca45463b12ab63fc849954d250e8d);
+            
+    
+            var marker_f7d0178d93ea0496b56c6fd04b21bbae = L.marker(
+                [-23.50552608179492, -46.476837876463364],
+                {
+}
+            ).addTo(map_46204b09228f65fba4b5f6a632d6439a);
+        
+    
+            var icon_e98f15af98bf6a92ada046d9ad6db6b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5677f97be3328146818dc10bf284b33d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69abbed7bdcd29d53a4a61dfefa4d9fb = $(`<div id="html_69abbed7bdcd29d53a4a61dfefa4d9fb" style="width: 100.0%; height: 100.0%;"> Cido Cabelereiro </div>`)[0];
+                popup_5677f97be3328146818dc10bf284b33d.setContent(html_69abbed7bdcd29d53a4a61dfefa4d9fb);
+            
+        
+
+        marker_f7d0178d93ea0496b56c6fd04b21bbae.bindPopup(popup_5677f97be3328146818dc10bf284b33d)
+        ;
+
+        
+    
+    
+                marker_f7d0178d93ea0496b56c6fd04b21bbae.setIcon(icon_e98f15af98bf6a92ada046d9ad6db6b6);
+            
+    
+            var marker_8ce6ce2254be98ff65aca5382c841821 = L.marker(
+                [-23.50579646102427, -46.476639861826236],
+                {
+}
+            ).addTo(map_46204b09228f65fba4b5f6a632d6439a);
+        
+    
+            var icon_41f4598127267714982113be05906f42 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ee31fa31dc98fbf12a1dcb3ec2931e28 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ee6db829dbd1fc7998c911b5f151b55 = $(`<div id="html_9ee6db829dbd1fc7998c911b5f151b55" style="width: 100.0%; height: 100.0%;"> Adega dos noias </div>`)[0];
+                popup_ee31fa31dc98fbf12a1dcb3ec2931e28.setContent(html_9ee6db829dbd1fc7998c911b5f151b55);
+            
+        
+
+        marker_8ce6ce2254be98ff65aca5382c841821.bindPopup(popup_ee31fa31dc98fbf12a1dcb3ec2931e28)
+        ;
+
+        
+    
+    
+                marker_8ce6ce2254be98ff65aca5382c841821.setIcon(icon_41f4598127267714982113be05906f42);
+            
+</script>
+</html>

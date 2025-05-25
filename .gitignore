@@ -1,0 +1,16 @@
+# Ignorar arquivos de log
+*.log
+*.copy
+
+# Ignorar arquivos temporários
+*.tmp
+*.swp
+
+# Ignorar pastas específicas
+__pycache__/
+.venv/
+
+# Ignorar arquivos de configuração locais
+
+.env
+*.sqlite3
