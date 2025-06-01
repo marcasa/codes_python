@@ -59,7 +59,7 @@ pivot = df.pivot_table(
     fill_value=0
 )
 
-plt.figure(figsize=(10 , 5))
+plt.figure(figsize=(10 , 6))
 pivot.plot(kind='bar', stacked=True)
 plt.title('Quantidade de Unidades vendidas por Estado em cada região')
 plt.xlabel('Estado')
